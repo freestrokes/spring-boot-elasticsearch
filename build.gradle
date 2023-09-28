@@ -13,7 +13,7 @@ repositories {
 }
 
 bootJar {
-	mainClass = 'com.freestrokes.SpringBootJpaApplication'
+	mainClass = 'com.freestrokes.SpringBootElasticsearchApplication'
 	archiveFileName = 'freestrokes-api.jar'
 	destinationDirectory = file("./target")
 }
